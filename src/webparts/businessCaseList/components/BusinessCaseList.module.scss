@@ -1,0 +1,93 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+
+.mainContainer{
+  padding: 20px;
+  background-color: #f7f9fa;
+}
+.header {
+  display: flex;
+  img {
+      width: 17px;
+      height: 19px;
+      margin-right: 10px;
+  }
+  span {
+      font-size: 18px;
+      font-weight: 600;
+  font-family: JJ-CircularTT-Light;
+  }
+}
+.headerFlex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBox{
+  width: 170px;
+  height: 22px !important;
+  border-radius: 20px;
+  font-weight: 400;
+  border: none;
+  color: #777379;
+  text-align: left;
+  background-color: white;
+  box-shadow: 0px 0px 2px black;
+  padding: 5px 9px !important;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.searchIcon{
+  position: absolute;
+    content: '';
+    right: 76px;
+    height: 18px;
+    margin-top: 8px;
+    width: 20px;
+}
+
+.bellContainer{
+  width: 27px !important;
+  height: 27px;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  // position: absolute;
+  right: 20px;
+  top:22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 2px black;
+  img{
+    color:#63666A;
+    height: 15px;
+    width: 12px;
+  }
+}
+
+.selectBox{
+ width:100%;
+ margin: 30px 0px;
+}
+.selectBoxOne{
+  width: 14%;
+  height: 36px;
+  margin-right: 25px;
+}
+
+.tableHeader{
+font-size: 9px !important;
+color:#63666A !important;
+}
+.footerContainer{
+  padding:20px;
+  box-shadow:0px -4px 6px #00000029;;
+}
+
+.footerFlex{
+  display: flex;
+  justify-content:space-between;
+}
+

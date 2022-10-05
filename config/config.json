@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cpc-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cpcDashboard/CpcDashboardWebPart.js",
+          "manifest": "./src/webparts/cpcDashboard/CpcDashboardWebPart.manifest.json"
+        }
+      ]
+    },
+    "business-case-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/businessCaseForm/BusinessCaseFormWebPart.js",
+          "manifest": "./src/webparts/businessCaseForm/BusinessCaseFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "business-case-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/businessCaseList/BusinessCaseListWebPart.js",
+          "manifest": "./src/webparts/businessCaseList/BusinessCaseListWebPart.manifest.json"
+        }
+      ]
+    },
+    "charter-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/charterList/CharterListWebPart.js",
+          "manifest": "./src/webparts/charterList/CharterListWebPart.manifest.json"
+        }
+      ]
+    },
+    "calendar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/calendar/CalendarWebPart.js",
+          "manifest": "./src/webparts/calendar/CalendarWebPart.manifest.json"
+        }
+      ]
+    },
+    "storage-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/storageList/StorageListWebPart.js",
+          "manifest": "./src/webparts/storageList/StorageListWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CpcDashboardWebPartStrings": "lib/webparts/cpcDashboard/loc/{locale}.js",
+    "BusinessCaseFormWebPartStrings": "lib/webparts/businessCaseForm/loc/{locale}.js",
+    "BusinessCaseListWebPartStrings": "lib/webparts/businessCaseList/loc/{locale}.js",
+    "CharterListWebPartStrings": "lib/webparts/charterList/loc/{locale}.js",
+    "CalendarWebPartStrings": "lib/webparts/calendar/loc/{locale}.js",
+    "StorageListWebPartStrings": "lib/webparts/storageList/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

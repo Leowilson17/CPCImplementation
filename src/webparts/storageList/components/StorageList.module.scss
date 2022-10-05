@@ -1,0 +1,16 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.header{
+  margin: 10px 0px;
+  img{
+    width:15px;
+    height:15px;
+    margin-right: 10px;
+  }
+  span{
+    font-size:18px;
+    color: #333333;
+    font-weight: 600 !important;
+  font-family: JJ-CircularTT-Light;
+  }
+}

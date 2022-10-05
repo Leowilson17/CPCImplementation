@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "jnj-apps-as-cpc-client-side-solution",
+    "id": "c88ae27f-a46c-4e91-b86d-8da5efa5fd69",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "jnj-apps-as-cpc description"
+      },
+      "longDescription": {
+        "default": "jnj-apps-as-cpc description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "jnj-apps-as-cpc Feature",
+        "description": "The feature that activates elements of the jnj-apps-as-cpc solution.",
+        "id": "fd24f38a-47aa-426b-8f77-b4797c7332af",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/jnj-apps-as-cpc.sppkg"
+  }
+}

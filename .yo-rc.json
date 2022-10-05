@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.14.0",
+    "libraryName": "jnj-apps-as-cpc",
+    "libraryId": "c88ae27f-a46c-4e91-b86d-8da5efa5fd69",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "jnj-apps-as-cpc",
+    "solutionShortDescription": "jnj-apps-as-cpc description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

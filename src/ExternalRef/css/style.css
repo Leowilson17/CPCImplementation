@@ -1,0 +1,248 @@
+/* font family */
+
+@font-face {
+  font-family: JJ-CircularTT-Black;
+  src: url(../fonts/J&J\ CircularTT-Black.ttf);
+}
+@font-face{
+  font-family: JJ-CircularTT-BlackItalic;
+  src: url(../fonts/J&J\ CircularTT-BlackItalic.ttf);
+}
+@font-face{
+  font-family: JJ-CircularTT-Bold;
+  src: url(../fonts/J&J\ CircularTT-Bold.ttf);
+}
+@font-face{
+  font-family: JJ-CircularTT-BoldItalic;
+  src: url(../fonts/J&J\ CircularTT-BoldItalic.ttf);
+}
+@font-face{
+  font-family: JJ-CircularTT-Book;
+  src: url(../fonts/J&J\ CircularTT-Book.ttf);
+}
+@font-face{
+  font-family: JJ-CircularTT-BookItalic;
+  src: url(../fonts/J&J\ CircularTT-BookItalic.ttf);
+}
+@font-face{
+  font-family: JJ-CircularTT-Light;
+  src: url(../fonts/J&J\ CircularTT-Light.ttf);
+}
+@font-face{
+  font-family: JJ-CircularTT-LightItalic;
+  src: url(../fonts/J&J\ CircularTT-LightItalic.ttf);
+}
+@font-face{
+  font-family: JJ-CircularTT-Medium;
+  src: url(../fonts/J&J\ CircularTT-Medium.ttf);
+}
+@font-face{
+  font-family: JJ-CircularTT-MediumItalic;
+  src: url(../fonts/J&J\ CircularTT-MediumItalic.ttf);
+} 
+
+
+#workbenchPageContent {
+    max-width:100%;
+  }
+  
+  .content_3f3fd3c2,
+  .CanvasZone {
+    padding:0 !important;
+    max-width:100%!important;
+  }
+.MuiOutlinedInput-root{
+  border-radius: 11px !important;
+  background-color: white;
+}
+  .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline{
+    border: none !important;
+    box-shadow:0px 3px 20px #888B8D1F;
+    color:#777379 !important;
+  }
+
+  /* .MuiFilledInput-root{
+    background-color: transparent !important;
+  } */
+
+  .MuiButton-contained {
+    border-radius: 20px !important;
+    font-size: 13px !important;
+  }
+  .MuiTableCell-root{
+    padding: 9px !important;
+    border-bottom:'none' !important;
+  }
+  .MuiSvgIcon-root{
+    font-size: 20px;
+    margin-right: 10px !important;
+  }
+/* 
+  .MuiTableHead-root{
+    width:100%;
+  } */
+  .MuiTableCell-head{
+    font-size:11px !important;
+    color:#63666A !important;
+  }
+  .MuiInputBase-input{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+  }
+.customForm .MuiOutlinedInput-input{
+  padding: 0px 11px !important;
+  font-size: 14px  !important;
+  height: 40px !important;
+  color: #777379;
+  font-family: JJ-CircularTT-Light;
+}
+.modalForm .MuiOutlinedInput-input{
+  padding: 0px 2px !important;
+  font-size: 10px  !important;
+  height:40px !important;
+  color: #777379;
+}
+.modalForm .MuiButton-contained {
+  font-size: 8px !important;
+}
+/* .modalForm .MuiFormControl-root{
+  border-radius: 11px !important;
+} */
+
+.MuiTableCell-body{
+  font-size: 14px !important;
+  color: #63666a;
+  font-weight: 400;
+}
+.listTable .MuiTableCell-body{
+  padding: 0px !important;
+}
+
+.MuiTableRow-root{
+  height: 53px;
+}
+.MuiTableBody-root {
+  background-color: white;
+}
+.MuiSelect-outlined.MuiSelect-outlined{
+align-items: center;
+display: flex;
+}
+.formCustomStyles .MuiOutlinedInput-root{
+  height: 27px;
+  width: 100px;
+}
+.formCustomStyles .MuiOutlinedInput-input{
+  padding: 0;
+}
+.MuiButton-root {
+line-height:1.25 !important;
+text-align: left ;
+}
+
+.customTable .MuiTableCell-root{
+border-bottom: none !important;
+}
+.customTableCharterList .fileImg{
+  width: 15px;
+  height: 15px;
+}
+.customTableCharterList .tableCell{
+  min-width: 200px;
+}
+.customTableCharterList .MuiTableRow-root{
+  height: 20px;
+}
+
+.MuiIconButton-root:hover{
+  background-color: #f7f9fa !important;
+}
+
+.assigneeInput .text-108 {
+  border-radius: 11px;
+  outline: none;
+  border: 1px solid #e0e2e3;
+} 
+.input-110{
+  height: 40px;
+  color:#777379 !important;
+  box-shadow:0px 3px 20px #888B8D1F;
+  font-family: JJ-CircularTT-Light !important;
+}
+.assigneeInput .text-111{
+  border: 1px solid #e0e2e3 !important;
+  border-radius: 11px !important;
+}
+.assigneeInput .text-108{
+  border: 1px solid #e0e2e3 !important;
+  border-radius: 11px !important;
+  background-color: white;
+}
+/* .text-108:hover{
+  border: 1px solid #e0e2e3 !important;
+} */
+.assigneeInput .text-111::after {
+  border: 1px solid #e0e2e3 !important;
+  border-radius: 11px !important;
+}
+.assigneeInput .text-124::after {
+  border: 1px solid #e0e2e3 !important;
+  border-radius: 11px !important;
+}
+.employeeInput .text-111 ,.text-108{
+  border: none !important;
+  background-color: white;
+  border-radius: 11px;
+} 
+.employeeInput .text-111::after{
+  border:none !important;
+} 
+.MuiOutlinedInput-multiline{
+  padding: 0 !important;
+}
+.MuiInputBase-multiline{
+  padding: 0px 4px  !important;
+}
+.filterInput .MuiSelect-select.MuiSelect-select{
+  padding: 0 !important;
+}
+.MuiFormControl-root{
+  border-radius: 11px ;
+}
+
+.borderInput .MuiInputBase-input{
+  border-radius: 11px
+}
+.borderInput .MuiFormControl-root {
+  border: 1px solid #e0e2e3;
+}
+.boxBtnStyle .MuiButton-text {
+  padding: 0 !important;
+}
+.boxBtnStyle .MuiButton-root{
+  padding: 0 !important;
+}
+
+.closeIcon .MuiSvgIcon-root{
+  height: 17px !important;
+  width: 17px !important;
+}
+
+.MuiInputBase-root.Mui-disabled{
+  background-color: white;
+}
+
+.reviewerImg .image-126 {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+}
+.assignee .image-126 {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+}

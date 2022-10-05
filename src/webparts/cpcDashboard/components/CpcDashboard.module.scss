@@ -1,0 +1,153 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.overLayPosition{
+  display: flex;
+  justify-content:space-between;
+  // position:relative;
+}
+.overlayImageTopLeft{
+//   top: 106px;
+//  left: 0px;
+ width: 515px;
+ height: 231px;
+ background-size: cover;
+ background-position:center;
+ overflow: hidden;
+ position:relative;
+background-image: url("/src/ExternalRef/images/Tracciato@2x.png");
+img{
+ width:240px;
+ height:149px;
+ position: absolute;
+ top: 59px;
+ left: -26px;
+}
+}
+
+.overlayImageTopRight {
+  background-image: url("/src/ExternalRef/images/RaggruppaDot\ @2x.png");
+  width: 38px;
+  height: 83px;
+  right: 80px;
+  top: 40px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  opacity: 0.5;
+  span{
+    height:27px;
+    width:27px;
+    border-radius:20px;
+    position:absolute;
+    left:10px;
+    top:-10px;
+    box-shadow: 0px 3px 5px black;
+    // bottom:2px;
+    background-color: white;
+    border:2px solid white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    img{
+      width:18px;
+      height:18px;
+     
+    }
+  }
+}
+
+.mainContainer{
+background-color: #f7f9fa;
+
+}
+.dashboardHead{
+  text-align: center;
+  font-size:34px;
+  span{
+    text-transform:uppercase;
+    color:#003479;
+    margin-bottom:10px;
+    font-weight: 600;
+    font-family: JJ-CircularTT-Bold;
+  }
+  div{
+    text-transform: capitalize;
+    color:#212121;
+    font-weight: 100;
+    font-family: JJ-CircularTT-LightItalic;
+  }
+}
+
+.boxContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box{
+  height:170px;
+  width: 170px;
+  // border:2px solid green;
+  border-radius:10px;
+  margin: 15px;
+  box-shadow: 0px 0px 20px rgb(212, 206, 206);
+  div{
+    display:flex;
+    justify-content:center;
+    margin:15px 0px;
+    img{
+      
+      height:36px;
+      width:36px;
+      object-fit:scale-dwon;
+    }
+  }
+  p{
+    text-align: center;
+    font-size:14px;
+    color: rgb(165, 161, 161);
+    margin: 9px 0px;
+  }
+  h3{
+    text-align: center;
+    font-size:18px;
+    margin: 3px 20px;
+  }
+}
+
+.overLayBottomContainer{
+  display: flex;
+  justify-content:space-between;
+  // position: relative;
+}
+
+.overlayBottomRight{
+  background-image:url('/src/ExternalRef/images/Raggruppa\ bottom@2x.png');
+  width: 38px;
+  height: 83px;
+  background-size: cover;
+  background-position: center;
+  // position: absolute;
+  // left: 50px;
+  // top: 50px;
+  margin-top:100px;
+  margin-left:50px;
+  opacity: 0.5;
+}
+.overlayBottomLeft{
+  background-image: url('/src/ExternalRef/images/Tracciatobottom\ @2x.png');
+  background-size: cover;
+  background-position: center;
+  width: 544px;
+height: 244px;
+position: relative;
+overflow: hidden;
+// right:0px;
+img{
+  width: 255px;
+height: 155px;
+position: absolute;
+top:110px;
+left:180px;
+}
+}
